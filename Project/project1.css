@@ -1,0 +1,87 @@
+/*index.html - всі блоки з user - по 2 в рядок. кнопки/посилання розташувати під інформацією про user. */
+
+#divObgIndex {
+    width: 49%;
+    display: inline-block;
+    margin: 4px;
+}
+#divIndex {
+    background-color: #efcfcf;
+    height: max-content;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 25px;
+}
+#buttonIndex {
+    background-color: #b7ccf3;
+    width: 100%;
+    height: 30px;
+    font-size: 16px;
+    border: 0;
+    border-radius: 25px;
+}
+
+/*user-details.html - блок з інфою про user зверху сторінки. Кнопка нижчє, на 90% ширини сторінки, по центру.*/
+/*блоки з короткою інфою про post - в ряд по 5 .*/
+
+
+#styleForUser {
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 5px;
+    background-color: #8af8f8;
+    text-align: start;
+}
+#buttonUsers {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    font-size: 24px;
+}
+#postsUsers {
+    margin-top: 8px;
+    margin-left: 2px;
+    width: 19%;
+    height: 50px;
+    border: black 1px solid;
+}
+#posts {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
+/*post-details.html - блок з інфою про пост зверху. Коментарі - по 4 в ряд.*/
+
+#divForComm {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#postInfo {
+    background-color: aqua;
+    margin-bottom: 16px;
+    font-size: 24px;
+}
+#ulComm {
+    width: 24%;
+    font-size: inherit;
+    border: black 1px solid;
+    margin: 4px;
+    padding: 4px;
+    list-style-type:  none;
+}
+
+/*Всі елементи котрі характеризують users, posts, comments візуалізувати, так, щоб було видно */
+/*що це блоки (дати фон. марджини і тд)*
+ */
+
+
+body {
+    background-image: radial-gradient(darkkhaki, #4efae3) ;
+}
+
+
